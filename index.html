@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    *{margin:0;padding:0;}
+    body {
+    font:13.34px helvetica,arial,freesans,clean,sans-serif;
+    color:black;
+    line-height:1.4em;
+    background-color: #F8F8F8;
+    padding: 0.7em;
+    }
+    p {
+    margin:1em 0;
+    line-height:1.5em;
+    }
+    table {
+    font-size:inherit;
+    font:100%;
+    margin:1em;
+    }
+    table th{border-bottom:1px solid #bbb;padding:.2em 1em;}
+    table td{border-bottom:1px solid #ddd;padding:.2em 1em;}
+    input[type=text],input[type=password],input[type=image],textarea{font:99% helvetica,arial,freesans,sans-serif;}
+    select,option{padding:0 .25em;}
+    optgroup{margin-top:.5em;}
+    pre,code{font:12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;}
+    pre {
+    margin:1em 0;
+    font-size:12px;
+    background-color:#eee;
+    border:1px solid #ddd;
+    padding:5px;
+    line-height:1.5em;
+    color:#444;
+    overflow:auto;
+    -webkit-box-shadow:rgba(0,0,0,0.07) 0 1px 2px inset;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;border-radius:3px;
+    }
+    pre code {
+    padding:0;
+    font-size:12px;
+    background-color:#eee;
+    border:none;
+    }
+    code {
+    font-size:12px;
+    background-color:#f8f8ff;
+    color:#444;
+    padding:0 .2em;
+    border:1px solid #dedede;
+    }
+    img{border:0;max-width:100%;}
+    abbr{border-bottom:none;}
+    a{color:#4183c4;text-decoration:none;}
+    a:hover{text-decoration:underline;}
+    a code,a:link code,a:visited code{color:#4183c4;}
+    h2,h3{margin:1em 0;}
+    h1,h2,h3,h4,h5,h6{border:0;}
+    h1{font-size:170%;border-top:4px solid #aaa;padding-top:.5em;margin-top:1.5em;}
+    h1:first-child{margin-top:0;padding-top:.25em;border-top:none;}
+    h2{font-size:150%;margin-top:1.5em;border-top:4px solid #e0e0e0;padding-top:.5em;}
+    h3{margin-top:1em;}
+    hr{border:1px solid #ddd;}
+    ul{margin:1em 0 1em 2em;}
+    ol{margin:1em 0 1em 2em;}
+    ul li,ol li{margin-top:.5em;margin-bottom:.5em;}
+    ul ul,ul ol,ol ol,ol ul{margin-top:0;margin-bottom:0;}
+    blockquote{margin:1em 0;border-left:5px solid #ddd;padding-left:.6em;color:#555;}
+    dt{font-weight:bold;margin-left:1em;}
+    dd{margin-left:2em;margin-bottom:1em;}
+    @media screen and (min-width: 768px) {
+    body {
+    width: 748px;
+    margin:10px auto;
+    }
+    }
+    .wrap {
+      display: flex;
+      justify-content: space-between;
+    }
+    .project {
+      margin-top: 10px;
+    }
+    .bold {
+      font-weight: bolder;
+    }
+    .center {
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+    <h1 class="center">简历</h2>
+    <div class="wrap">
+      <ul>
+        <li>梁森/男/1992</li>
+        <li>本科</li>
+        <li>Github:https://github.com/sam019</li>
+        <li>期望职位: Web前端工程师</li>
+        <li>期望城市: 北京</li>
+        <li>期望薪资: 6000~8000</li>
+      </ul>
+      <ul>
+        <li>手机: 15566014912</li>
+        <li>Email: samleong019@gmail.com</li>
+        <li>QQ: 524117481</li>
+        <li>微信: liangsen019</li>
+      </ul>
+    </div>
+    <h2 class="project">项目</h2>
+    <ul class="project-list">
+      <li clas><span class="bold">基于React和Koa开发的在线聊天室</span>
+        <ul><li>在线地址:&nbsp;http://aether.liangsen.tk</li>
+        <li>功能:&nbsp;用户登录、注册和登出，创建群组、加入群组、退出群组及发起私聊，支持发送文本、链接、表情和图片，可以自定义头像等个人信息，响应式设计，兼容移动端，pc端支持桌面和声音提示</li>
+        <li>技术栈:&nbsp;前端使用React开发，React&nbsp;Router做路由处理，Redux和Immutable做数据管理。后端使用Koa2开发，MongoDB数据库，Socket.IO做消息推送</li></ul></li>
+        <li><span class="bold">移动端Webapp阅读器</span>
+          <ul><li>在线地址:&nbsp;http://reader.liangsen.tk</li>
+          <li>功能:&nbsp;点击屏幕切换上下边栏，本地保存背景颜色和字号大小设置，章节切换</li>
+          <li>技术栈:&nbsp;使用Zepto.js开发，jsonp异步获取数据，采用base64图片格式，localstorage保存设置</li></ul></li>
+          <li><span class="bold">多功能相册库</span>
+            <ul><li>在线demo:&nbsp;https://sam019.github.io/IFE/task51/demo</li>
+            <li>Github:&nbsp;https://github.com/sam019/IFE/blob/master/task51</li>
+            <li>功能:&nbsp;一个用于图片布局的javascript库，，支持三种模式：拼图布局，瀑布流布局，木桶布局</li></ul></li>
+            <li><span class="bold">仿企业官网页面</span>: https://sam019.github.io/IFE/task7</li>
+            <li><span class="bold">仿常见数据统计页面</span>:  https://sam019.github.io/IFE/task9</li>
+            <li><span class="bold">冒泡排序，二叉树遍历及图的遍历可视化</span>: <div class="center">https://sam019.github.io/IFE/task19 ，https://sam019.github.io/IFE/task22，https://sam019.github.io/IFE/task23-24</div></li>
+            <li><span class="bold">行星和飞船小游戏</span>: https://sam019.github.io/IFE/task28</li>
+          </ul>
+          <h2>技能</h2>
+          <ul class="skill-list">
+            <li>熟练使用HTML，CSS实现较复杂的布局与动画，了解语义化标签，熟练使用Photoshop切图</li>
+            <li>熟练使用ES6及部分ES7语法，熟练使用ajax和后端通信，熟悉jQuery和Zepto，了解面向对象编程</li>
+            <li>熟练使用React，了解Vue和Angular。熟悉模块化，组件化的开发方式</li>
+            <li>熟悉Node.js，会使用Express和Koa，熟悉MongoDB，了解HTTP协议，会使用nginx</li>
+            <li>熟练使用webpack，gulp打包和优化开发流程，熟练使用Git</li>
+            <li>CET­6&nbsp;能够阅读英文技术文档，使用Google和Stack&nbsp;Overflow搜索和解决问题</li>
+          </ul>
+          <h2>致谢</h2>
+          <p>感谢您花时间阅读我的简历，期待能有机会和您共事。 </p>
+        </body>
+      </html>
